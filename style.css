@@ -1,1 +1,12 @@
-sssssssssssssssssssssssssssssssz
+.logo a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: aqua;
+}
+
+nav li {
+    padding-bottom: 10px;
+}
+
