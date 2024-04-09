@@ -8,6 +8,14 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul,ol,nav {
+    list-style: none;
+}
+
 html {
     background-color: var(--background-color);
 }
@@ -33,11 +41,6 @@ main {
     height: 480px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 html{
     background-color: var(--i 3.);
 }
@@ -45,10 +48,6 @@ html{
 main {
     display: flex;
     flex-direction: row;
-}
-footer{
-    width: 100%;
-    background-color: #30E0A1;
 }
 
 .logo a {
@@ -67,7 +66,12 @@ nav li {
 .submenu {
     height: 150px;
     list-style: none;
-    display: flex;S
+    display: flex;
+    justify-content: space-around;
+}
+
+.submenu li {
+    font-size:50px ;
 }
 
 .card-list {
@@ -80,9 +84,13 @@ nav li {
     height: 100%;
     display: flex;
     flex-direction: column;
-    text-align: center;
     justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
-
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: #30E0A1;
+    
+}
