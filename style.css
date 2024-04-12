@@ -89,8 +89,25 @@ nav li {
 }
 
 footer{
+    margin-left: 20%;
     height: 200px;
     width: 100%;
     background-color: #30E0A1;
-    
+    display: flex; 
+    flex-direction: row;
+}
+
+.name {
+    width: 20%;
+}
+
+.payments{
+    display: block;
+    width: 60%;
+}
+
+.payments ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
