@@ -63,6 +63,7 @@ main {
     align-items: center;
     text-decoration: none;
     color: rgb(43, 17, 212);
+    font-size: x-large;
 }
 
 nav li {
@@ -115,9 +116,9 @@ button:active {
 }
 
 footer{
-    margin-left: 20%;
+    
     height: 200px;
-    width: 100%;
+
     background-color: #30E0A1;
     display: flex; 
     flex-direction: row;
