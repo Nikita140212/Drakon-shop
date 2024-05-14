@@ -71,28 +71,29 @@ nav li {
     padding-bottom: 100px;
 }
 
-.content {
-    padding: 50px;
-}
-
 .submenu {
-    height: 150px;
+    padding: 10px;
+    background-color: var(--background-color);
+    height: 100%;
+    width: 100%;
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
 
 .submenu li {
-    font-size:50px ;
+    text-transform: uppercase;
+    font-size: 50px ;
 }
 
 .card-list {
+    padding: 50px;
     display: grid;
     justify-items: center;
     align-items: center;
     grid-template-columns:repeat(3, 1fr) ;
     grid-template-rows: repeat(2,1fr);
-    gap: 30px;
+    gap: 50px;
     
 }
 
@@ -110,9 +111,24 @@ nav li {
     text-align: center;
 }
 
+.r3 {
+    flex-direction: row;
+    grid-column: 1/4;
+    width: 100%;
+}
+
+.big-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .card img {
     width: 280px;
     height: 100%;
+    border-radius: 20px;
 }
 
 button {
